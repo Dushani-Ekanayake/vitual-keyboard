@@ -182,12 +182,8 @@ If expanded, this virtual keyboard can support:
 * Themes (light / dark / custom)
 * Floating or draggable behavior
 
----
+  ##Screenshots
+<img width="768" height="507" alt="image" src="https://github.com/user-attachments/assets/84559189-3407-4b48-b7e5-c9c48a12effc" />
+<img width="884" height="988" alt="image" src="https://github.com/user-attachments/assets/96972588-4fa8-44b6-a048-4186cd4bc4cf" />
 
-## License
 
-MIT License
-
----
-
-If you want, I can also generate a **project logo**, **screenshots**, or **a GitHub Pages badge** for your repository. Just ask.
