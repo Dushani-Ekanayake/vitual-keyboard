@@ -1,1 +1,116 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background: #0f1115;
+  color: #e6e6e6;
+  min-height: 100vh;
+  padding: 40px 16px 140px;
+}
+
+/* Page content */
+.container {
+  max-width: 480px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+input,
+textarea {
+  width: 100%;
+  background: #161a20;
+  border: 1px solid #2a2f3a;
+  border-radius: 10px;
+  padding: 14px;
+  color: #e6e6e6;
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #4f7cff;
+}
+
+/* Keyboard */
+.vk {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #12151b;
+  border-top: 1px solid #242a35;
+  padding: 12px 8px 16px;
+  z-index: 9999;
+}
+
+.vk.hidden {
+  display: none;
+}
+
+.vk-body {
+  max-width: 720px;
+  margin: auto;
+}
+
+.vk-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.vk-key {
+  min-width: 36px;
+  padding: 12px 14px;
+  margin: 3px;
+  background: #1c212b;
+  border: 1px solid #2a2f3a;
+  border-radius: 10px;
+  color: #e6e6e6;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.05s;
+}
+
+.vk-key:hover {
+  background: #252b36;
+}
+
+.vk-key:active {
+  transform: scale(0.95);
+}
+
+.vk-key.space {
+  min-width: 200px;
+}
+
+.vk-key.enter {
+  background: #4f7cff;
+  border-color: #4f7cff;
+}
+
+.vk-key.enter:hover {
+  background: #3e68e0;
+}
+
+@media (max-width: 480px) {
+  .vk-key {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+
+  .vk-key.space {
+    min-width: 140px;
+  }
+}
+
